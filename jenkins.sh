@@ -1,5 +1,5 @@
 #STEP-1: Installing Git and Maven
-yum install git maven -y
+dnf install git maven -y
 
 #STEP-2: Repo Information (jenkins.io --> download -- > redhat)
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
